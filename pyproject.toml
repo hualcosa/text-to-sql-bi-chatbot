@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bi-chatbot-riv-builder"
+version = "0.1.0"
+description = "build a powerful BI ChatBot that can understand natural language queries, generate SQL, and visualize data from a real-world NBA dataset."
+authors = ["Hugo Albuquerque <hualcosa@amazon.com>"]
+license = "MIT 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^0.2.59"
+streamlit = "^1.41.1"
+ipykernel = "^6.29.5"
+boto3 = "^1.35.81"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
