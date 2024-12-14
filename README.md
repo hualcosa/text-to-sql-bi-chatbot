@@ -1,4 +1,4 @@
-# BI Chatbot RIV Builder
+# BI Chatbot (Text to SQL)
 
 This project is a Business Intelligence (BI) Chatbot that uses natural language processing to generate SQL queries, execute them against a database, and visualize the results. It's designed to work with an NBA dataset and uses Amazon Bedrock for AI capabilities.
 
